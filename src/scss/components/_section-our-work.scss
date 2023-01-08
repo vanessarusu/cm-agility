@@ -1,0 +1,20 @@
+.section-our-work {
+    background: url(../images/hero-bottom-orange-triangle.svg) left top no-repeat;
+
+    @media (max-width: $desktop-small) {
+        background-size: 10vw;
+    }
+
+    @media (max-width: $mobile) {
+        background: none;
+    }
+}
+
+.section-company-values {
+    background: url(../images/values-orange-semi-circles.svg) right center no-repeat;
+
+    @media (max-width: $desktop-small) {
+        background-size: 10vw;
+        background-position: top right;
+    }
+}

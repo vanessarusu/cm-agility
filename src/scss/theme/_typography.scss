@@ -1,0 +1,15 @@
+body {
+    font-family: var(--sans-serif);
+}
+
+p a {
+    text-decoration: underline;
+}
+
+.fl-button-wrap {
+    a.fl-button {
+        border-radius: 26px 0 !important;
+        padding: 16px 60px;
+        transition: all 0.15s ease-in-out;
+    }
+}

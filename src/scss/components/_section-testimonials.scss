@@ -1,0 +1,36 @@
+
+.section-testimonials {
+    .testimonial-slider {
+        .fl-slide {
+            padding-bottom: 40px;
+        }
+        .fl-slide-content-wrap {
+            width: 100%;
+        }
+        .fl-slide-title {
+            margin-bottom: 60px !important;
+        }
+    }
+
+    .bx-controls {
+        .bx-pager {
+            .bx-pager-link {
+                background: transparent;
+                border: 1px solid var(--offwhite);
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                margin: 0 8px;
+                transition: all 0.15s ease-in-out;
+
+                &:hover {
+                    background: var(--offwhite);
+                }
+
+                &.active {
+                    background: var(--offwhite);
+                }
+            }
+        }
+    }
+}

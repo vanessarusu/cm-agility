@@ -1,0 +1,27 @@
+::selection {
+    background: var(--blue);
+    color: var(--offwhite);
+}
+
+body, 
+.fl-page-content,
+header,
+.fl-page-header,
+footer,
+.fl-page-footer-widgets,
+.fl-page-footer {
+    background: var(--offwhite);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: $desktop-small) {
+    .mobile-rotate img {
+        transform: rotate(90deg);
+        transform-origin: 100%;
+        max-width: 30px !important;
+        margin-top: 20px;
+    }
+}

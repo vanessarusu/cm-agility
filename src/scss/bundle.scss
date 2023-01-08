@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@import './theme/variables';
+@import './theme/typography';
+@import './theme/utils';
+
+@import './components/header';
+@import './components/section-company-values';
+@import './components/section-our-work';
+@import './components/section-testimonials';
+@import './components/section-team';
+@import './components/section-readiness-assessment';
+@import './components/section-contact';
+@import './components/section-footer-accordion';

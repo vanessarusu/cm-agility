@@ -1,0 +1,32 @@
+
+.linkedin-bio-icon {
+    .fl-icon-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .fl-icon {
+        align-self: center;
+        margin-left: 28px;
+
+        i {
+            background: var(--black);
+            padding: 0.4rem;
+            border-radius: 50%;
+            height: 32px;
+            width: 32px;
+
+            &:before {
+                margin-left: 4px;
+                position: relative;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .fl-icon-text {
+        padding: 0;
+        height: unset !important;
+    }
+}
