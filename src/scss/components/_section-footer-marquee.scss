@@ -8,6 +8,7 @@
     .fl-html {
         --move-initial: 0vw;
         --move-final: -100vw;
+
         @media (max-width: 1400px) {
             --move-initial: 0vw;
              --move-final: -150vw;
@@ -15,7 +16,7 @@
 
         @media (max-width: $mobile) {
             --move-initial: 0vw;
-            --move-final: -250vw;
+            --move-final: -350vw;
         }
     }
 
@@ -33,7 +34,7 @@
         }
 
         @media (max-width: $mobile) {
-            width: 500vw;
+            width: 700vw;
             animation: marquee 40s linear infinite;
         }
 
